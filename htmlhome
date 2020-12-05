@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AmberBotS</title>
+    <link rel="stylesheet" href="page.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="page.js"></script>
+  </head>
+  <body>
+
+    <nav>
+      <img class="icon1" src="ambersuprise.png">
+      <ul>
+        <li><a href="page.html" class="active">Home</a></li>
+        <li><a href="commands.html">Commands</a></li>
+        <li><a href="https://discord.gg/vaaxH7QwwP">Official Discord</a></li>
+      </ul>
+    </nav>
+    <div class="body">
+    <a href="https://discord.com/oauth2/authorize?client_id=768708516809932820&scope=bot&permissions=8">
+      <button type="button" id="id">
+        Invite Amber
+      </button>
+    </a>
+    <h1>Amber Bot</h1>
+
+    <p>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+      Text goes here <br>
+    </p>
+  </body>
+</html>
