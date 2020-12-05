@@ -1,0 +1,125 @@
+body {
+  background-image: url(download.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+button {
+  font-size: 20px;
+  padding: 5px;
+  position: fixed;
+  top: 90%;
+  left: 80%;
+  border: 1px solid #36F6E3;
+  background: none;
+  width: 150px;
+  color: #fff;
+  box-shadow: 0 4px 10px #36F6E3;
+  transition: .5s;
+}
+button:hover{
+  transition: .5s;
+  background: #36F6E3;
+  color: #000;
+  cursor: pointer;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+p{
+  color: #fff;
+}
+.body {
+  margin-left: 100px;
+  margin-top: 90px;
+  margin-right: 100px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 4px 10px #000;
+}
+h1 {
+  color: #75FFFA;
+  text-align: center;
+  font-size: 50px;
+  transition: .6s;
+  width: 50%;
+  left: 50%;
+  padding: 10px;
+  line-height: 50px;
+  color: #fff;
+  background: rgba(0,0,0,.6)
+}
+h2{
+  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  line-height: 40px;
+  color: #fff;
+  background: rgba(0,0,0,.6)
+}
+span.cmds{
+  color: #A6FEC5;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  line-height: 40px;
+  color: #fff;
+  background: rgba(0,0,0,.6)
+}
+.invis{
+  opacity: 0;
+  transition: .2s;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: 1s;
+  border-bottom: 1px solid #fff;
+}
+nav.black {
+	background: rgba(0,0,0,.8);
+	height: 80px;
+	padding: 10px 50px;
+  transition: .5s;
+}
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a{
+	line-height: 70px;
+	color: #fff;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+nav.black ul li a{
+	color: #fff;
+}
+nav ul li a.active, nav ul li a:hover {
+	color: #000;
+	background: #f00;
+  cursor: pointer;
+}
+.icon1{
+  position: fixed;
+  transition: .2s;
+  height: 80px;
+  left: 3%;
+}
+.small{
+  height: 69px;
+  left: 3%;
+  transition: .2s;
+}
